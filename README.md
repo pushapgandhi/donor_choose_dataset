@@ -35,8 +35,12 @@ Part 2
 ## GBDT
 For this model the following operations are performed:
 *Featurization:
-    - Set 1: categorical(response coding use probability values), numerical features + project_title(TFIDF)+ preprocessed_eassay (TFIDF)+sentiment Score of eassay
-    - Set 2: categorical( response coding use probability values), numerical features + project_title(TFIDF W2V)+ preprocessed_eassay (TFIDF W2V)
+    - Set 1: categorical(response coding use probability values), 
+            numerical features + project_title(TFIDF)+
+            preprocessed_eassay (TFIDF)+sentiment Score of eassay
+    - Set 2: categorical( response coding use probability values), 
+            numerical features + project_title(TFIDF W2V)+ 
+                preprocessed_eassay (TFIDF W2V)
 *Hyperparameter tuning
 * Training model with best hyperparameter 
 * Summarizing the results
